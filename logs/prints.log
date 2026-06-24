@@ -1,0 +1,14 @@
+10:15:05.100 [TestNG-PoolService-1] INFO  hooks.ScenarioHook -  SCENARIO START: Search buses from Mumbai to Pune
+10:15:16.240 [TestNG-PoolService-1] INFO  hooks.ScenarioHook - Browser launched successfully for scenario: Search buses from Mumbai to Pune
+10:16:15.907 [TestNG-PoolService-1] INFO  hooks.ScenarioHook -  SCENARIO END: Search buses from Mumbai to Pune
+10:16:15.920 [TestNG-PoolService-1] INFO  hooks.ScenarioHook -  Status: PASSED
+10:16:15.922 [TestNG-PoolService-1] ERROR hooks.ScenarioHook - SCENARIO PASSED: Search buses from Mumbai to Pune — Capturing screenshot...
+10:16:16.475 [TestNG-PoolService-1] INFO  hooks.ScenarioHook - Screenshot attached to Cucumber report.
+10:16:17.876 [TestNG-PoolService-1] INFO  hooks.ScenarioHook - Browser closed successfully.
+10:19:50.286 [TestNG-PoolService-1] INFO  hooks.ScenarioHook -  SCENARIO START: Search buses from Mumbai to Pune
+10:20:02.468 [TestNG-PoolService-1] INFO  hooks.ScenarioHook - Browser launched successfully for scenario: Search buses from Mumbai to Pune
+10:21:00.389 [TestNG-PoolService-1] INFO  hooks.ScenarioHook -  SCENARIO END: Search buses from Mumbai to Pune
+10:21:00.396 [TestNG-PoolService-1] INFO  hooks.ScenarioHook -  Status: PASSED
+10:21:00.396 [TestNG-PoolService-1] ERROR hooks.ScenarioHook - SCENARIO PASSED: Search buses from Mumbai to Pune — Capturing screenshot...
+10:21:00.830 [TestNG-PoolService-1] INFO  hooks.ScenarioHook - Screenshot attached to Cucumber report.
+10:21:02.553 [TestNG-PoolService-1] INFO  hooks.ScenarioHook - Browser closed successfully.

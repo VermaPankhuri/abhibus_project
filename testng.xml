@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AbhiBus Automation Suite" verbose="1">
+    <test name="Bus Search Tests">
+        <classes>
+            <class name="cucumberOptions.TestRunner"/>
+        </classes>
+    </test>
+</suite>

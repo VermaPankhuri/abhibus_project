@@ -1,0 +1,636 @@
+!SESSION 2026-06-24 09:22:00.815 -----------------------------------------------
+eclipse.buildId=4.39.0.20260305-0817
+java.version=21.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data C:\Users\Uttam.3.Kumar\eclipse-workspace\AbhiBusAutomation\AbhiBusAutomation
+
+!ENTRY ch.qos.logback.classic 1 0 2026-06-24 09:22:09.595
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-06-24 09:22:12.810
+!MESSAGE Logback config file: C:\Users\Uttam.3.Kumar\eclipse-workspace\AbhiBusAutomation\AbhiBusAutomation\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.101.20251017-1242.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-06-24 09:22:29.142
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-06-24 09:22:29.149
+!MESSAGE [Info] Found native binary in fragment bundle: com.microsoft.copilot.eclipse.core.agent.win32
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-06-24 09:22:29.184
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Uttam.3.Kumar'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-06-24 09:22:29.417
+!MESSAGE [Info] Binary agent started successfully.
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-24 09:22:42.219
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[lsp] GitHub Copilot Language Server 1.488.0 initialized
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-24 09:22:42.462
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[UndiciFetcher] HTTP settings changed; resetting Undici dispatchers. {
+  proxy: 'http://ipv4.125.18.103.158.hybrid-web.global.blackspider.com:8081',
+  noProxyCount: 2,
+  proxyStrictSSL: true,
+  hasProxyAuthorization: false,
+  hasProxyKerberosServicePrincipal: false
+}
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-06-24 09:22:42.466
+!MESSAGE [LS:GitHub Copilot Language Server][Warning]	[McpAutoApproveService] Invalid McpAutoApproveService config, resetting to empty undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-24 09:22:42.469
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[certificates] Removed 10 expired certificates
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-24 09:22:42.473
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[BackgroundAgent.ProxyEnv] Applied proxy settings to environment for SDK {
+  hasProxy: true,
+  hasAuth: false,
+  hasNoProxy: true,
+  proxyStrictSSL: true,
+  hasTlsCa: true,
+  dispatcherType: 'EnvHttpProxyAgent'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-24 09:22:42.562
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[default] Policy watcher started for GitHub Copilot Plugin
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-24 09:22:42.638
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[UndiciFetcher] Root certificate set changed; resetting Undici dispatchers. { certificateCount: 186 }
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-24 09:22:42.641
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[ripgrep] Using tmpFolder for ripgrep: C:\Users\Uttam.3.Kumar\.cache\pkg\72dc6f288b8f13e22da7572a55f576ac335b8402e617b8aaf91f8dbf72adf1a0
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-24 09:22:42.647
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[ripgrep] Resolved ripgrep path: C:\Users\Uttam.3.Kumar\.cache\pkg\72dc6f288b8f13e22da7572a55f576ac335b8402e617b8aaf91f8dbf72adf1a0\rg.exe
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-24 09:22:42.650
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[ripgrep] Set GITHUB_COPILOT_RIPGREP_PATH_OVERRIDE=C:\Users\Uttam.3.Kumar\.cache\pkg\72dc6f288b8f13e22da7572a55f576ac335b8402e617b8aaf91f8dbf72adf1a0\rg.exe
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-24 09:22:42.841
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetcher] Request to <https://copilot-telemetry.githubusercontent.com/telemetry> failed, attempting fallback. Error [TypeError]: fetch failed
+    at Object.processResponse (C:\snapshot\cls-source\dist\main.js:348:32902)
+    at C:\snapshot\cls-source\dist\main.js:348:39247
+    at node:internal/process/task_queues:149:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:146:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5) {
+  code: 'ProxyStatusCode403',
+  syscall: undefined,
+  errno: undefined,
+  statusCode: 403,
+  [cause]: ProxySocketError: tunneling socket could not be established, statusCode=403
+      at ClientRequest.<anonymous> (C:\snapshot\cls-source\dist\main.js:3770:39702)
+      at Object.onceWrapper (node:events:634:26)
+      at ClientRequest.emit (node:events:519:28)
+      at Socket.socketOnData (node:_http_client:655:11)
+      at Socket.emit (node:events:519:28)
+      at addChunk (node:internal/streams/readable:561:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+      at Readable.push (node:internal/streams/readable:392:5)
+      at TCP.onStreamRead (node:internal/stream_base_commons:189:23) {
+    code: 'ProxyStatusCode403',
+    syscall: undefined,
+    errno: undefined,
+    statusCode: 403
+  }
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-24 09:22:43.331
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[GithubAvailableEmbeddingTypes] Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-24 09:22:43.994
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[AutoModelService] Auto model cache cleared due to token update
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-24 09:22:43.998
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[CopilotMCP] MCP state changed from false to true
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-24 09:22:44.002
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[Semantic Search] Semantic search is disabled { reason: 'watchedFiles capability is not available' }
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-24 09:22:44.022
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[BackgroundAgent] GitHub identity changed, clearing cached sessions {
+  hadPrevious: false,
+  hasCurrent: true,
+  cachedSessionCount: 0,
+  remoteDelegateCount: 0
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-24 09:22:45.038
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetcher] Request to <https://copilot-telemetry.githubusercontent.com/telemetry> failed, attempting fallback. Error [TypeError]: fetch failed
+    at Object.processResponse (C:\snapshot\cls-source\dist\main.js:348:32902)
+    at C:\snapshot\cls-source\dist\main.js:348:39247
+    at node:internal/process/task_queues:149:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:146:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5) {
+  code: 'ProxyStatusCode403',
+  syscall: undefined,
+  errno: undefined,
+  statusCode: 403,
+  [cause]: ProxySocketError: tunneling socket could not be established, statusCode=403
+      at ClientRequest.<anonymous> (C:\snapshot\cls-source\dist\main.js:3770:39702)
+      at Object.onceWrapper (node:events:634:26)
+      at ClientRequest.emit (node:events:519:28)
+      at Socket.socketOnData (node:_http_client:655:11)
+      at Socket.emit (node:events:519:28)
+      at addChunk (node:internal/streams/readable:561:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+      at Readable.push (node:internal/streams/readable:392:5)
+      at TCP.onStreamRead (node:internal/stream_base_commons:189:23) {
+    code: 'ProxyStatusCode403',
+    syscall: undefined,
+    errno: undefined,
+    statusCode: 403
+  }
+}
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-06-24 09:22:45.096
+!MESSAGE [LS:GitHub Copilot Language Server][Warning]	[McpAutoApproveService] Invalid McpAutoApproveService config, resetting to empty undefined
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-06-24 09:22:45.134
+!MESSAGE [LS:GitHub Copilot Language Server][Error]	[ProxyModelService] Failed to fetch proxy models: 403 Forbidden
+!SESSION 2026-06-24 09:25:52.269 -----------------------------------------------
+eclipse.buildId=4.39.0.20260305-0817
+java.version=21.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2026-06-24 09:26:01.439
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-06-24 09:26:05.199
+!MESSAGE Logback config file: C:\Users\Uttam.3.Kumar\eclipse-workspace\AbhiBusAutomation\AbhiBusAutomation\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.101.20251017-1242.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-06-24 09:26:15.717
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-06-24 09:26:15.729
+!MESSAGE [Info] Found native binary in fragment bundle: com.microsoft.copilot.eclipse.core.agent.win32
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-06-24 09:26:15.829
+!MESSAGE [Info] Binary agent started successfully.
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-06-24 09:26:15.992
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Uttam.3.Kumar'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-24 09:26:24.697
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[lsp] GitHub Copilot Language Server 1.488.0 initialized
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-24 09:26:25.063
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[UndiciFetcher] HTTP settings changed; resetting Undici dispatchers. {
+  proxy: 'http://ipv4.125.18.103.158.hybrid-web.global.blackspider.com:8081',
+  noProxyCount: 2,
+  proxyStrictSSL: true,
+  hasProxyAuthorization: false,
+  hasProxyKerberosServicePrincipal: false
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-24 09:26:25.068
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[certificates] Removed 10 expired certificates
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-06-24 09:26:25.072
+!MESSAGE [LS:GitHub Copilot Language Server][Warning]	[McpAutoApproveService] Invalid McpAutoApproveService config, resetting to empty undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-24 09:26:25.077
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[BackgroundAgent.ProxyEnv] Applied proxy settings to environment for SDK {
+  hasProxy: true,
+  hasAuth: false,
+  hasNoProxy: true,
+  proxyStrictSSL: true,
+  hasTlsCa: true,
+  dispatcherType: 'EnvHttpProxyAgent'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-24 09:26:25.289
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[default] Policy watcher started for GitHub Copilot Plugin
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-24 09:26:25.709
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[UndiciFetcher] Root certificate set changed; resetting Undici dispatchers. { certificateCount: 186 }
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-24 09:26:25.733
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[ripgrep] Using tmpFolder for ripgrep: C:\Users\Uttam.3.Kumar\.cache\pkg\72dc6f288b8f13e22da7572a55f576ac335b8402e617b8aaf91f8dbf72adf1a0
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-24 09:26:25.783
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[ripgrep] Resolved ripgrep path: C:\Users\Uttam.3.Kumar\.cache\pkg\72dc6f288b8f13e22da7572a55f576ac335b8402e617b8aaf91f8dbf72adf1a0\rg.exe
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-24 09:26:25.790
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[ripgrep] Set GITHUB_COPILOT_RIPGREP_PATH_OVERRIDE=C:\Users\Uttam.3.Kumar\.cache\pkg\72dc6f288b8f13e22da7572a55f576ac335b8402e617b8aaf91f8dbf72adf1a0\rg.exe
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-24 09:26:27.003
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[GithubAvailableEmbeddingTypes] Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-24 09:26:27.498
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetcher] Request to <https://copilot-telemetry.githubusercontent.com/telemetry> failed, attempting fallback. Error [TypeError]: fetch failed
+    at Object.processResponse (C:\snapshot\cls-source\dist\main.js:348:32902)
+    at C:\snapshot\cls-source\dist\main.js:348:39247
+    at node:internal/process/task_queues:149:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:146:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5) {
+  code: 'ProxyStatusCode403',
+  syscall: undefined,
+  errno: undefined,
+  statusCode: 403,
+  [cause]: ProxySocketError: tunneling socket could not be established, statusCode=403
+      at ClientRequest.<anonymous> (C:\snapshot\cls-source\dist\main.js:3770:39702)
+      at Object.onceWrapper (node:events:634:26)
+      at ClientRequest.emit (node:events:519:28)
+      at Socket.socketOnData (node:_http_client:655:11)
+      at Socket.emit (node:events:519:28)
+      at addChunk (node:internal/streams/readable:561:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+      at Readable.push (node:internal/streams/readable:392:5)
+      at TCP.onStreamRead (node:internal/stream_base_commons:189:23) {
+    code: 'ProxyStatusCode403',
+    syscall: undefined,
+    errno: undefined,
+    statusCode: 403
+  }
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-24 09:26:28.135
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[AutoModelService] Auto model cache cleared due to token update
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-24 09:26:28.143
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[Semantic Search] Semantic search is disabled { reason: 'watchedFiles capability is not available' }
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-24 09:26:28.154
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[CopilotMCP] MCP state changed from false to true
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-24 09:26:28.249
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[BackgroundAgent] GitHub identity changed, clearing cached sessions {
+  hadPrevious: false,
+  hasCurrent: true,
+  cachedSessionCount: 0,
+  remoteDelegateCount: 0
+}
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-06-24 09:26:28.870
+!MESSAGE [LS:GitHub Copilot Language Server][Error]	[ProxyModelService] Failed to fetch proxy models: 403 Forbidden
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-06-24 09:26:29.210
+!MESSAGE [LS:GitHub Copilot Language Server][Warning]	[McpAutoApproveService] Invalid McpAutoApproveService config, resetting to empty undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-24 09:26:30.358
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetcher] Request to <https://copilot-telemetry.githubusercontent.com/telemetry> failed, attempting fallback. Error [TypeError]: fetch failed
+    at Object.processResponse (C:\snapshot\cls-source\dist\main.js:348:32902)
+    at C:\snapshot\cls-source\dist\main.js:348:39247
+    at node:internal/process/task_queues:149:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:146:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5) {
+  code: 'ProxyStatusCode403',
+  syscall: undefined,
+  errno: undefined,
+  statusCode: 403,
+  [cause]: ProxySocketError: tunneling socket could not be established, statusCode=403
+      at ClientRequest.<anonymous> (C:\snapshot\cls-source\dist\main.js:3770:39702)
+      at Object.onceWrapper (node:events:634:26)
+      at ClientRequest.emit (node:events:519:28)
+      at Socket.socketOnData (node:_http_client:655:11)
+      at Socket.emit (node:events:519:28)
+      at addChunk (node:internal/streams/readable:561:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+      at Readable.push (node:internal/streams/readable:392:5)
+      at TCP.onStreamRead (node:internal/stream_base_commons:189:23) {
+    code: 'ProxyStatusCode403',
+    syscall: undefined,
+    errno: undefined,
+    statusCode: 403
+  }
+}
+!SESSION 2026-06-24 11:32:14.714 -----------------------------------------------
+eclipse.buildId=4.39.0.20260305-0817
+java.version=21.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data C:\Users\Uttam.3.Kumar\eclipse-workspace\AbhiBusAutomation\AbhiBusAutomation
+
+!ENTRY ch.qos.logback.classic 1 0 2026-06-24 11:32:24.313
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-06-24 11:32:27.942
+!MESSAGE Logback config file: C:\Users\Uttam.3.Kumar\eclipse-workspace\AbhiBusAutomation\AbhiBusAutomation\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.101.20251017-1242.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-06-24 11:32:40.764
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-06-24 11:32:40.788
+!MESSAGE [Info] Found native binary in fragment bundle: com.microsoft.copilot.eclipse.core.agent.win32
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-06-24 11:32:41.001
+!MESSAGE [Info] Binary agent started successfully.
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-06-24 11:32:41.223
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Uttam.3.Kumar'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-24 11:32:53.061
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[lsp] GitHub Copilot Language Server 1.488.0 initialized
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-24 11:32:53.306
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[UndiciFetcher] HTTP settings changed; resetting Undici dispatchers. {
+  proxy: 'http://ipv4.125.18.103.158.hybrid-web.global.blackspider.com:8081',
+  noProxyCount: 2,
+  proxyStrictSSL: true,
+  hasProxyAuthorization: false,
+  hasProxyKerberosServicePrincipal: false
+}
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-06-24 11:32:53.311
+!MESSAGE [LS:GitHub Copilot Language Server][Warning]	[McpAutoApproveService] Invalid McpAutoApproveService config, resetting to empty undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-24 11:32:53.317
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[BackgroundAgent.ProxyEnv] Applied proxy settings to environment for SDK {
+  hasProxy: true,
+  hasAuth: false,
+  hasNoProxy: true,
+  proxyStrictSSL: true,
+  hasTlsCa: true,
+  dispatcherType: 'EnvHttpProxyAgent'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-24 11:32:53.323
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[certificates] Removed 10 expired certificates
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-24 11:32:53.402
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[default] Policy watcher started for GitHub Copilot Plugin
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-24 11:32:53.596
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[UndiciFetcher] Root certificate set changed; resetting Undici dispatchers. { certificateCount: 186 }
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-24 11:32:53.601
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[ripgrep] Using tmpFolder for ripgrep: C:\Users\Uttam.3.Kumar\.cache\pkg\72dc6f288b8f13e22da7572a55f576ac335b8402e617b8aaf91f8dbf72adf1a0
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-24 11:32:53.621
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[ripgrep] Resolved ripgrep path: C:\Users\Uttam.3.Kumar\.cache\pkg\72dc6f288b8f13e22da7572a55f576ac335b8402e617b8aaf91f8dbf72adf1a0\rg.exe
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-24 11:32:53.627
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[ripgrep] Set GITHUB_COPILOT_RIPGREP_PATH_OVERRIDE=C:\Users\Uttam.3.Kumar\.cache\pkg\72dc6f288b8f13e22da7572a55f576ac335b8402e617b8aaf91f8dbf72adf1a0\rg.exe
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-24 11:32:53.839
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetcher] Request to <https://copilot-telemetry.githubusercontent.com/telemetry> failed, attempting fallback. Error [TypeError]: fetch failed
+    at Object.processResponse (C:\snapshot\cls-source\dist\main.js:348:32902)
+    at C:\snapshot\cls-source\dist\main.js:348:39247
+    at node:internal/process/task_queues:149:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:146:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5) {
+  code: 'ProxyStatusCode403',
+  syscall: undefined,
+  errno: undefined,
+  statusCode: 403,
+  [cause]: ProxySocketError: tunneling socket could not be established, statusCode=403
+      at ClientRequest.<anonymous> (C:\snapshot\cls-source\dist\main.js:3770:39702)
+      at Object.onceWrapper (node:events:634:26)
+      at ClientRequest.emit (node:events:519:28)
+      at Socket.socketOnData (node:_http_client:655:11)
+      at Socket.emit (node:events:519:28)
+      at addChunk (node:internal/streams/readable:561:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+      at Readable.push (node:internal/streams/readable:392:5)
+      at TCP.onStreamRead (node:internal/stream_base_commons:189:23) {
+    code: 'ProxyStatusCode403',
+    syscall: undefined,
+    errno: undefined,
+    statusCode: 403
+  }
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-24 11:32:54.280
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[GithubAvailableEmbeddingTypes] Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-24 11:32:54.907
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[AutoModelService] Auto model cache cleared due to token update
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-24 11:32:54.913
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[CopilotMCP] MCP state changed from false to true
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-24 11:32:54.918
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[Semantic Search] Semantic search is disabled { reason: 'watchedFiles capability is not available' }
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-24 11:32:54.968
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[BackgroundAgent] GitHub identity changed, clearing cached sessions {
+  hadPrevious: false,
+  hasCurrent: true,
+  cachedSessionCount: 0,
+  remoteDelegateCount: 0
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-24 11:32:55.230
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetcher] Request to <https://copilot-telemetry.githubusercontent.com/telemetry> failed, attempting fallback. Error [TypeError]: fetch failed
+    at Object.processResponse (C:\snapshot\cls-source\dist\main.js:348:32902)
+    at C:\snapshot\cls-source\dist\main.js:348:39247
+    at node:internal/process/task_queues:149:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:146:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5) {
+  code: 'ProxyStatusCode403',
+  syscall: undefined,
+  errno: undefined,
+  statusCode: 403,
+  [cause]: ProxySocketError: tunneling socket could not be established, statusCode=403
+      at ClientRequest.<anonymous> (C:\snapshot\cls-source\dist\main.js:3770:39702)
+      at Object.onceWrapper (node:events:634:26)
+      at ClientRequest.emit (node:events:519:28)
+      at Socket.socketOnData (node:_http_client:655:11)
+      at Socket.emit (node:events:519:28)
+      at addChunk (node:internal/streams/readable:561:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+      at Readable.push (node:internal/streams/readable:392:5)
+      at TCP.onStreamRead (node:internal/stream_base_commons:189:23) {
+    code: 'ProxyStatusCode403',
+    syscall: undefined,
+    errno: undefined,
+    statusCode: 403
+  }
+}
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-06-24 11:32:55.417
+!MESSAGE [LS:GitHub Copilot Language Server][Error]	[ProxyModelService] Failed to fetch proxy models: 403 Forbidden
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-06-24 11:32:56.188
+!MESSAGE [LS:GitHub Copilot Language Server][Warning]	[McpAutoApproveService] Invalid McpAutoApproveService config, resetting to empty undefined
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-06-24 11:39:19.495
+!MESSAGE [Info] Document is null for editor: SearchBusStep.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-06-24 11:39:19.502
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/Uttam.3.Kumar/eclipse-workspace/AbhiBusAutomation/AbhiBusAutomation/AbhiBusAutomation/AbhiBusAutomation/src/test/java/stepDefinitions/SearchBusStep.java
+!SESSION 2026-06-24 11:39:24.499 -----------------------------------------------
+eclipse.buildId=4.39.0.20260305-0817
+java.version=21.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data C:\Users\Uttam.3.Kumar\eclipse-workspace\AbhiBusAutomation\AbhiBusAutomation
+
+!ENTRY ch.qos.logback.classic 1 0 2026-06-24 11:39:36.044
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-06-24 11:39:39.812
+!MESSAGE Logback config file: C:\Users\Uttam.3.Kumar\eclipse-workspace\AbhiBusAutomation\AbhiBusAutomation\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.101.20251017-1242.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-06-24 11:40:01.017
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-06-24 11:40:01.028
+!MESSAGE [Info] Found native binary in fragment bundle: com.microsoft.copilot.eclipse.core.agent.win32
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-06-24 11:40:01.267
+!MESSAGE [Info] Binary agent started successfully.
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-06-24 11:40:01.438
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Uttam.3.Kumar'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-24 11:40:26.327
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[lsp] GitHub Copilot Language Server 1.488.0 initialized
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-24 11:40:26.956
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[ripgrep] Using tmpFolder for ripgrep: C:\Users\Uttam.3.Kumar\.cache\pkg\72dc6f288b8f13e22da7572a55f576ac335b8402e617b8aaf91f8dbf72adf1a0
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-06-24 11:40:26.962
+!MESSAGE [LS:GitHub Copilot Language Server][Warning]	[McpAutoApproveService] Invalid McpAutoApproveService config, resetting to empty undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-24 11:40:26.969
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[UndiciFetcher] HTTP settings changed; resetting Undici dispatchers. {
+  proxy: 'http://ipv4.125.18.103.158.hybrid-web.global.blackspider.com:8081',
+  noProxyCount: 2,
+  proxyStrictSSL: true,
+  hasProxyAuthorization: false,
+  hasProxyKerberosServicePrincipal: false
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-24 11:40:26.975
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[BackgroundAgent.ProxyEnv] Applied proxy settings to environment for SDK {
+  hasProxy: true,
+  hasAuth: false,
+  hasNoProxy: true,
+  proxyStrictSSL: true,
+  hasTlsCa: true,
+  dispatcherType: 'EnvHttpProxyAgent'
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-24 11:40:26.981
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[certificates] Removed 10 expired certificates
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-24 11:40:27.072
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[default] Policy watcher started for GitHub Copilot Plugin
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-24 11:40:27.078
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[ripgrep] Set GITHUB_COPILOT_RIPGREP_PATH_OVERRIDE=C:\Users\Uttam.3.Kumar\.cache\pkg\72dc6f288b8f13e22da7572a55f576ac335b8402e617b8aaf91f8dbf72adf1a0\rg.exe
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-24 11:40:27.085
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[ripgrep] Resolved ripgrep path: C:\Users\Uttam.3.Kumar\.cache\pkg\72dc6f288b8f13e22da7572a55f576ac335b8402e617b8aaf91f8dbf72adf1a0\rg.exe
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-24 11:40:27.176
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[UndiciFetcher] Root certificate set changed; resetting Undici dispatchers. { certificateCount: 186 }
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-24 11:40:27.579
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetcher] Request to <https://copilot-telemetry.githubusercontent.com/telemetry> failed, attempting fallback. Error [TypeError]: fetch failed
+    at Object.processResponse (C:\snapshot\cls-source\dist\main.js:348:32902)
+    at C:\snapshot\cls-source\dist\main.js:348:39247
+    at node:internal/process/task_queues:149:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:146:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5) {
+  code: 'ProxyStatusCode403',
+  syscall: undefined,
+  errno: undefined,
+  statusCode: 403,
+  [cause]: ProxySocketError: tunneling socket could not be established, statusCode=403
+      at ClientRequest.<anonymous> (C:\snapshot\cls-source\dist\main.js:3770:39702)
+      at Object.onceWrapper (node:events:634:26)
+      at ClientRequest.emit (node:events:519:28)
+      at Socket.socketOnData (node:_http_client:655:11)
+      at Socket.emit (node:events:519:28)
+      at addChunk (node:internal/streams/readable:561:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+      at Readable.push (node:internal/streams/readable:392:5)
+      at TCP.onStreamRead (node:internal/stream_base_commons:189:23) {
+    code: 'ProxyStatusCode403',
+    syscall: undefined,
+    errno: undefined,
+    statusCode: 403
+  }
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-24 11:40:27.985
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[GithubAvailableEmbeddingTypes] Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-24 11:40:28.805
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[AutoModelService] Auto model cache cleared due to token update
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-24 11:40:28.812
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[CopilotMCP] MCP state changed from false to true
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-24 11:40:28.819
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[Semantic Search] Semantic search is disabled { reason: 'watchedFiles capability is not available' }
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-24 11:40:28.866
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[BackgroundAgent] GitHub identity changed, clearing cached sessions {
+  hadPrevious: false,
+  hasCurrent: true,
+  cachedSessionCount: 0,
+  remoteDelegateCount: 0
+}
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-06-24 11:40:29.051
+!MESSAGE [LS:GitHub Copilot Language Server][Info]	[fetcher] Request to <https://copilot-telemetry.githubusercontent.com/telemetry> failed, attempting fallback. Error [TypeError]: fetch failed
+    at Object.processResponse (C:\snapshot\cls-source\dist\main.js:348:32902)
+    at C:\snapshot\cls-source\dist\main.js:348:39247
+    at node:internal/process/task_queues:149:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:146:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5) {
+  code: 'ProxyStatusCode403',
+  syscall: undefined,
+  errno: undefined,
+  statusCode: 403,
+  [cause]: ProxySocketError: tunneling socket could not be established, statusCode=403
+      at ClientRequest.<anonymous> (C:\snapshot\cls-source\dist\main.js:3770:39702)
+      at Object.onceWrapper (node:events:634:26)
+      at ClientRequest.emit (node:events:519:28)
+      at Socket.socketOnData (node:_http_client:655:11)
+      at Socket.emit (node:events:519:28)
+      at addChunk (node:internal/streams/readable:561:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+      at Readable.push (node:internal/streams/readable:392:5)
+      at TCP.onStreamRead (node:internal/stream_base_commons:189:23) {
+    code: 'ProxyStatusCode403',
+    syscall: undefined,
+    errno: undefined,
+    statusCode: 403
+  }
+}
+
+!ENTRY org.eclipse.lsp4e 4 0 2026-06-24 11:40:29.779
+!MESSAGE [LS:GitHub Copilot Language Server][Error]	[ProxyModelService] Failed to fetch proxy models: 403 Forbidden
+
+!ENTRY org.eclipse.lsp4e 2 0 2026-06-24 11:40:29.861
+!MESSAGE [LS:GitHub Copilot Language Server][Warning]	[McpAutoApproveService] Invalid McpAutoApproveService config, resetting to empty undefined
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-06-24 11:40:33.575
+!MESSAGE [Info] Document is null for editor: SearchBusStep.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-06-24 11:40:33.577
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/Uttam.3.Kumar/eclipse-workspace/AbhiBusAutomation/AbhiBusAutomation/AbhiBusAutomation/AbhiBusAutomation/src/test/java/stepDefinitions/SearchBusStep.java
